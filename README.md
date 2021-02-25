@@ -12,8 +12,6 @@ This is a bookmarklet to add the position size to Binance Future's UI.
 
 ## Screenshot
 
-![Screenshot][screenshot]
+<img src="screenshot.png">
 
 This is an example using x13 leverage.
-
-[logo]: screenshot.png ""
