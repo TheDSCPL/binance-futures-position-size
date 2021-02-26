@@ -38,11 +38,11 @@ function bunnyStart() {
         return Number.isNaN(a) || !Number.isSafeInteger(a) || a<=0 ? 0 : a
     }
     function getLongCost() {
-        const a = Number.parseFloat(maxs.item(0).parentElement.parentElement.previousElementSibling.children.item(0).children.item(1).textContent)
+        const a = Number.parseFloat(maxs.item(0).parentElement.parentElement.previousElementSibling.children.item(0).children.item(1).textContent.replace(",",""))
         return Number.isNaN(a) || !Number.isFinite(a) ? 0 : a
     }
     function getShortCost() {
-        const a = Number.parseFloat(maxs.item(0).parentElement.parentElement.previousElementSibling.children.item(1).children.item(1).textContent)
+        const a = Number.parseFloat(maxs.item(0).parentElement.parentElement.previousElementSibling.children.item(1).children.item(1).textContent.replace(",",""))
         return Number.isNaN(a) || !Number.isFinite(a) ? 0 : a
     }
 
